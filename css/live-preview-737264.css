@@ -1,0 +1,70 @@
+/* color scheme: olive */
+
+body #vCard .button:hover,
+body #vCard .wide-button:hover,
+body #vCard .one-third-tile:hover,
+body #vCard .half-tile:hover,
+body #vCard .tile:hover,
+body #vCard.animating .selected,
+body #vCard #gallery figure p img:hover{
+    box-shadow: 1px 1px 1px 0px #999954, -1px -1px 1px 0px #999954;
+	border: 1px solid #999954;
+}
+body  #vCard a,
+body  #vCard .heading{
+	color: #a0a0a0;
+}
+body  #vCard .heading.hover,
+body  #vCard a:hover{
+	color: #999954;
+}
+body  #vCard a.active,
+body  #vCard a.active:hover{
+	color:  #73733f;
+}
+body #vCard  a.closeBtn:hover{
+	border: 1px solid #999954;
+}
+body  #vCard .selected .heading,
+body  #vCard .subheading{
+	color:#73733f;
+}
+
+body  .align-right {
+	border-left: 1px solid #999954;
+}
+body  .align-left {
+	border-right: 1px solid #73733f;
+}
+
+body {
+	background-color: #4d4d41;
+}
+
+body footer{
+	color: #000;
+	text-shadow: #606060 0px 1px 0, #444 0 -1px 0;
+}
+
+body #profile .quote-box .quote{
+	border-right: 1px solid #73733f;
+}
+
+body  #vCard #home .subheading{
+	color: #000;
+}
+
+body #vCard #gallery figure.visited p img{
+	border-color: #111;
+}
+
+body #contact ul.vcard{
+	border-left: 1px solid #73733f;
+}
+#sendBtn input:hover {
+	background:#999954;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#73733f), color-stop(100%,#999954));
+	background: -moz-linear-gradient(center top, #73733f 0%, #999954 100%);
+	border: 1px solid #73733f;
+	text-shadow: 0px 1px 0px #73733f;
+}
